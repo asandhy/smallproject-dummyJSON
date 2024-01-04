@@ -1,0 +1,17 @@
+
+<% for(var i = 0; i < prod.length; i++) { %>
+<tr>
+    <td><%= i + 1 %></td>
+    <td><%= prod[i].title %></td>
+    <td><%= prod[i].description %></td>
+    <td><%= prod[i].price %></td>
+    <td><%= prod[i].stock %></td>
+	<td><%= prod[i].rating %></td>
+
+    <td>
+        <!-- Tombol untuk menampilkan sebagian kolom -->
+        <button onclick="showColumns(<%= i %>)">DETAIL</button>
+    </td>	
+
+</tr>
+<% } %>
