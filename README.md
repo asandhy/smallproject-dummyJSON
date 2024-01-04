@@ -12,4 +12,5 @@ Overcoming technical challenges in developing desktop applications with Node.js 
 in the Electron wrapper environment can be demanding. However, with a profound understanding 
 of the application structure and the implementation of appropriate solutions, developers 
 can navigate these challenges and create reliable and responsive desktop applications. 
-This article aims to provide guidance to developers facing technical hurdles in the development of web-based desktop applications.
+This small code aims to provide guidance to developers facing technical hurdles 
+in the development of web-based desktop applications.
